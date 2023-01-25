@@ -9,10 +9,9 @@
 </head>
 <header>
     <nav>
-            <p> RaceSpace</p>
+            <p> LifeEXP</p>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
             <li><a href="dash.html">Dash</a></li>
         </ul>
             
@@ -20,8 +19,18 @@
     </header>
 <body>
     <div class ="todo">
+        <div class="timer-container">
+            <div class="timer">
+              <span id="watch">00 : 00 : 00</span>
+            </div>
+            <div class="btns">
+              <button id="start">Start</button>
+              <button id="stop">Stop</button>
+              <button id="reset">Reset</button>
+            </div>
+          </div>
         <h1>To Do list</h1>
-        <div class="main__box">
+        <div class="todo-container">
             <div class="box">
                 <input class="taskinput" type="text" placeholder="Write something">
                 <button class="taskbutton">Add</button>
@@ -29,9 +38,9 @@
                 <ul class="mylist">
                 </ul>
             </div>
+            <div class="my exp">
+            </div>
         </div>
-    </div>
-    <div class="my exp">
     </div>
 
 </body>
